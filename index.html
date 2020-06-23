@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <header>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script defer type="text/javascript" src="js/weatherFetcher.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Weather App</title>
+    </header>
+    <body>
+        <div id="container">
+            <div id="innerContent">
+                    <div id="title">
+                        <h1>How's the Weather?</h1>
+                    </div>
+                    <form  id="request">
+                        <input type="text" id="location" name="location" placeholder="Enter a city name...">
+                        <input id="requestWeatherButton" type="button" value="Get Weather"/>
+                    </form> 
+                    <div id="result">
+                        <div id="resultTitle"></div>
+                        <div id="innerResult">
+                            <div id="resultLeft">
+                                <div id="resultImage"></div>
+                                <div id="resultDescription">
+                                    <p>Please enter a city's name to see weather data!</p>
+                                </div>
+                            </div>
+                            <div id="resultRight">
+                                <div id="currentTemp"></div>
+                                <div id="minTemp"></div>
+                                <div id="maxTemp"></div>
+                                <div id="pressure"></div>
+                                <div id="humidity"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

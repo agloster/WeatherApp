@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(195, 226, 220);
+    color: #505050;
+    background-image: url("../img/cloud_tile.png");
+    background-repeat: repeat;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#innerContent {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+ text-align: center;
+}
+
+#request {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#result {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    border-color: #f36b45;
+    border-width: 4px;
+    border-style: solid;
+    padding: 8px;
+    margin-top: 24px;
+    border-radius: 4px;
+}
+
+#resultTitle {
+    text-align: center;
+    color: #f36b45;
+    font-weight: bold;
+    font-size: large;
+}
+
+#innerResult {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+#resultLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#resultRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#resultDescription {
+    text-align: center;
+    color: #f36b45;
+    font-weight: bold;
+}
+
+input {
+    color:  #505050;
+    outline: none;
+}
+
+input[type=text] {
+    height: 24px;
+    border: 2px solid #f36b45;
+    border-radius: 4px;
+    width: 200px;
+}
+
+input[type=button] {
+    width: 100px;
+}
