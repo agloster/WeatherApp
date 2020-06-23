@@ -18,8 +18,7 @@ function sendRequest() {
 
 // Handle city name submission on enter key press
 function handleInputEnter(event) {
-    if(event.which == 13 || event.keyCode == 13) {
-        event.preventDefault();
+    if(event.key === "Enter") {
         sendRequest();
     }
 }
